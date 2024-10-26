@@ -1,12 +1,12 @@
-def Nima_gap(son) :
-    salom = ''
+def onlikdan_tortlikka(son) :
+    tortlikdagi_son = ''
     while son > 0:
-        harp = son % 2
-        salom = str(harp) +salom
-        son = son // 2
-    return salom
+        ozgaruvchi = son % 4
+        tortlikdagi_son = str(ozgaruvchi) +tortlikdagi_son
+        son = son // 4
+    return tortlikdagi_son
 
-print(Nima_gap(4))
+print(onlikdan_tortlikka(4))
 
 
     
